@@ -3,7 +3,7 @@
 require_relative 'lib/legion/extensions/creativity/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'legion-extensions-creativity'
+  spec.name          = 'lex-creativity'
   spec.version       = Legion::Extensions::Creativity::VERSION
   spec.authors       = ['Matthew Iverson']
   spec.email         = ['matt@legionIO.com']
@@ -18,4 +18,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.metadata['rubygems_mfa_required'] = 'true'
+  spec.add_development_dependency 'legion-gaia'
 end
